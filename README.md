@@ -6,7 +6,7 @@ Bnisba l **Pull requests** Kol wa7d y Forki had repo w create Dossier bsmito f m
 > Idea Dyal Jamal
 
 
-** NAME of language =  Aliens Programming language (ALS) **
+**NAME of language =  Aliens Programming language (ALS)**
 
 
 3taber Programming logic li 3arfino w dima kyt3awd b7al chi space(fada2)
