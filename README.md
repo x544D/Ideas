@@ -3,10 +3,10 @@
 Bnisba l **Pull requests** jem3o Syntax f txt 1 or diro dossier b your name w westo 7etto txt file L kol 7aja (conditions .. loops ..etc)
 
 
-**_____________________Idea Dyal Jamal____________________________________**
+> Idea Dyal Jamal
 
 
-> NAME of language =  Aliens Programming language
+** NAME of language =  Aliens Programming language (ALS) **
 
 
 3taber Programming logic li 3arfino w dima kyt3awd b7al chi space(fada2)
@@ -16,23 +16,23 @@ dik lmain w classes ..etc dima tab3ina so why not change logic kamlo  !
 
 
 ```
-					[Space]
-					(main)
-				  ____|____
-				|			|
-			[Galaxies]	   ....
-		   (Libraries)
-		 _______|_______
-		|  	     		|
-	[Planets]		[IPlanets]
-	(classes)		(Interfaces)
-		|________________|
-				|
-			Functions Protos
-			Methods
-			Attributes
-			Constructors
-			..... etc
+                    [Space]
+                    (main)
+                  ____|____
+				|          |
+            [Galaxies]    ....
+            (Libraries)
+         _______|_______
+        |               |
+    [Planets]      [IPlanets]
+    (classes)     (Interfaces)
+       |________________|
+             |
+     Functions Protos
+         Methods
+        Attributes
+       Constructors
+           etc..
 			
 ```
    
@@ -43,38 +43,36 @@ dik lmain w classes ..etc dima tab3ina so why not change logic kamlo  !
 
 
 MAIN / ENTRY PT 			= Space
+
 IMPORTED MODULES/Libraries 	= Galaxies
 
-OOP[
+[
+	OOP:
 	
-	CLASS      = Planet
-	INTERFACE  = IPlanet
-	FUNCTIONS  = def
+		+ CLASS      = Planet
+		+ INTERFACE  = IPlanet
+		+ FUNCTIONS  = def
 ]
 
-
-**________________________________________________________________________**
 
 
 > Des exmpl de syntaxes 
 
 
-**+++++++++++++++++ CLASS in ALIENT PL +++++++++++++++++**
+**+++++++++++++++++ CLASS in ALS +++++++++++++++++**
 
-Planet Person:
-	Name 	= 	[]
-	Prenon 	=	"a"
+```Planet Person:
+	Name 	= 	"Saad"
+	Prenon 	=	"Jamal"
 
 	// Funcs - Procedures
 	def ToString():
 		...
 		...
-		...
-	
+		...	
+```
 
-**+++++++++++++++++ CONDITIONS in ALIENT PL +++++++++++++++++**
-
-in Alient PL :
+**+++++++++++++++++ CONDITIONS in ALS +++++++++++++++++**
 		
 	if (condition 1) 	// this is if 
 		....
@@ -94,7 +92,7 @@ in Alient PL :
 		....
 	
 
-**+++++++++++++++++ LOOPS in ALIENT PL +++++++++++++++++**
+**+++++++++++++++++ LOOPS in ALS +++++++++++++++++**
 
 	- while
 	- for			<-- Done
