@@ -1,0 +1,100 @@
++ LIBRARIES / Modules (ready to import) :
+
+
+
+ + I/O
+	|_ print
+	|_ input / cin / scanf
+
+ + Math
+	|
+	|_ Operators
+	|	|
+	|	|_ add
+	|	|_ mul
+	|	|_ sub
+	|	|_ mod
+	|
+	|_ abs
+	|_ sqrt
+	|_ factorial
+	|_ even // zawji
+	|_ odd	// fardi
+	|_ ...
+	
+ + Crypt
+	|
+	|_ encrypt
+	|_ decrypt
+	|_ ....
+	
+
+// Lists = Arrays
+ + Arrays
+	|
+	|_ toDic			// to dictionary
+	|_ toTuple			// to tuple
+	|_ toJson			// ...
+	|_ toTree			// b7al |_ 
+	|_ toString			// ..
+	|_ merge			// dmej all arrays L 1 array
+	|_ loop				// Loop through it 
+	|_ sort				// Sort by ascii code
+	|_ from				// Return a new array from index x to last
+	|_ isArray			// Check x if is array (enumerable)
+	|_ of				// array men object exmpl : array.of(True) => [True,]
+	|_ fill				// 3meer array b chi 7aja
+	|_ randFill			// 3mer array b random values
+	|_ find				// find value in that array
+	|_ len				// length dyal array (1 based machi b7al index) 
+	|_ indexOf			// return  index of value
+	|_ join				// exmpl : 'Days are :'.join(',', weekdays) ghadi t3ti : Days are : Monday, ...etc
+	|_ pop				// remove last/first item mn array
+	|_ push				// add item to the end / start
+	|_ removeAt			// remove by index
+	|_ insertAt			// insert by index
+	|_ zero_all			// Make all items of array 0
+	|_ null_all			// Make all items Null
+	|_ slice			// Return a new array from index x to y (b7al from ta9riban ghi u can chose from>to)
+	|_ ....
+	
+ + Dictionaries
+	|
+	|_ keys , vals , sort ..etc + dakchi d arrays
+
+
+ - Requests
+	|
+	|_ post
+	|_ get
+	|_ ping
+	|_ ....
+	
+ - Files / Directories
+	|
+	|_ exists
+	|_ open
+	|_ close
+	|_ create
+	|_ write
+	|_ read
+	|_ delete
+	|_ copy
+	|_ past
+	|_ move
+	|_ rename
+	|_ hide
+	|_ ....
+
+	
+ - json
+	|
+	|_ fromDic
+	|_ fromArray
+	|_ fromTree
+	|_ fromString
+	|_ ...
+	
+	
+ 
+ 
