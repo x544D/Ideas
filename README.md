@@ -19,7 +19,7 @@ dik lmain w classes ..etc dima tab3ina so why not change logic kamlo  !
                     [Space]
                     (main)
                   ____|____
-				|          |
+                 |         |
             [Galaxies]    ....
             (Libraries)
          _______|_______
