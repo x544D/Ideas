@@ -1,11 +1,26 @@
 + LIBRARIES / Modules (ready to import) :
 
 
-
  + I/O
-	|_ print
-	|_ input / cin / scanf
-
+	|_ Text
+	|	|	
+	|	|_ print
+	|	|_ input / cin / scanf	
+	|
+	|_ Sound
+	|	|
+	|	|_ loadSound
+	|	|_ saveSound
+	|	|_ playSound
+	|
+	|_ Images
+	|	|
+	|	|_ loadImage
+	|	|_ save Image
+	|
+	|_ .....
+ 
+ 
  + Math
 	|
 	|_ Operators
@@ -22,6 +37,7 @@
 	|_ odd	// fardi
 	|_ ...
 	
+// Crypt booo7dha hhhh fiha bzf dkhedma .
  + Crypt
 	|
 	|_ encrypt
@@ -57,19 +73,22 @@
 	|_ null_all			// Make all items Null
 	|_ slice			// Return a new array from index x to y (b7al from ta9riban ghi u can chose from>to)
 	|_ ....
-	
- + Dictionaries
+
+// Bon ghankhedmo presque b 60% dakchi d Arrays
++ Dictionaries
 	|
 	|_ keys , vals , sort ..etc + dakchi d arrays
 
 
+// Get - post ka bidaya
  - Requests
 	|
 	|_ post
 	|_ get
 	|_ ping
 	|_ ....
-	
+
+// on Disk Files/Folders
  - Files / Directories
 	|
 	|_ exists
@@ -86,7 +105,8 @@
 	|_ hide
 	|_ ....
 
-	
+
+// Json rah kafi w 9adi gharad bla manzido xml , we9t ...
  - json
 	|
 	|_ fromDic
@@ -95,6 +115,23 @@
 	|_ fromString
 	|_ ...
 	
-	
- 
- 
+
+// this will have 2 Versions for Linux and for windows (I will explain mnin nweslo liha)
+ - Memory
+ 	|_ Process
+	|	|_ start		// start or launch a new Process
+	|	|_ kill			// force kill/terminate a proc
+	|	|_ suspend		// force suspend process
+	|	|_ resume 		// force resume a process
+	|	|_ getModules		// get all modules loaded by the process
+	|	|_ getProcs		// return list of procs
+	|	|_ getProcByName	// return 1 process object
+	|	|_ getProcById		// return 1 process Object 
+	|	|_ openProcess		// return Handle to the process
+	|
+	|_ rpm				// read process memory		(for hacking mostly xd)
+	|_ wpm				// write process memory		(for hacking mostly ..)
+	|_ vProt			// Implementation of VirtualProtect() ..
+	|_ llib				// Implemetation of LoadLibrary
+	|_ closeHandle			// close an opened handle 
+	|_ flib				// Implementation of FreeLibrary 
