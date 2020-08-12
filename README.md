@@ -9,10 +9,10 @@ Bnisba l **Pull requests** jem3o Syntax f txt 1 or diro dossier b your name w we
 > NAME of language =  Aliens Programming language
 
 
-# 3taber Programming logic li 3arfino w dima kyt3awd b7al chi space(fada2)
-# w KHARAJLINA HAD L3JB hhhh lmohim , I realy realy like it !
-# I think hadi ghadi t attirer l'attention dyal lCommunity , psq it's a fresh idea
-# dik lmain w classes ..etc dima tab3ina so why not change logic kamlo  !
+3taber Programming logic li 3arfino w dima kyt3awd b7al chi space(fada2)
+w KHARAJLINA HAD L3JB hhhh lmohim , I realy realy like it !
+I think hadi ghadi t attirer l'attention dyal lCommunity , psq it's a fresh idea
+dik lmain w classes ..etc dima tab3ina so why not change logic kamlo  !
 
 
 ```
