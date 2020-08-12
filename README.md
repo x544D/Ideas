@@ -46,13 +46,12 @@ MAIN / ENTRY PT 			= Space
 
 IMPORTED MODULES/Libraries 	= Galaxies
 
-[
-	OOP:
+- OOP :
 	
 		+ CLASS      = Planet
 		+ INTERFACE  = IPlanet
 		+ FUNCTIONS  = def
-]
+
 
 
 
@@ -61,7 +60,8 @@ IMPORTED MODULES/Libraries 	= Galaxies
 
 **+++++++++++++++++ CLASS in ALS +++++++++++++++++**
 
-```Planet Person:
+```
+Planet Person:
 	Name 	= 	"Saad"
 	Prenon 	=	"Jamal"
 
