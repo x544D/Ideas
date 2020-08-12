@@ -1,6 +1,6 @@
 > NOTE :
 
-Bnisba l **Pull requests** jem3o Syntax f txt 1 or diro dossier b your name w westo 7etto txt file L kol 7aja (conditions .. loops ..etc)
+Bnisba l **Pull requests** Kol wa7d y Forki had repo w create Dossier bsmito f master branch of the forked repo  .. w west dak dossier jme3 kolchi w documentih mzian , yla 9derti dir README.md west dossier b7al hadi li kat9raha db aykon 7ssen bach tsehl 3lina nfehmo base points , Good luck Jammers !
 
 
 > Idea Dyal Jamal
