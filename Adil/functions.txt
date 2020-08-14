@@ -1,0 +1,85 @@
+		Fonction	=====> 		Menning
+------------------------------------------------------------------------------------------------------------------------------------
+converting:	number(value)  =====>  convert value to number
+		text(value)  =====>  convert value to text(string)
+		json(Array/List)  =====>  convert list to json
+		xml(Array/List)  =====>  convert list to xml
+		bin(Path)  =====>  convert file to bin
+		txt(Path)  =====>  convert file to txt
+		ascii(char)  =====>  convert char to ascii
+		char(number)  =====>  convert ascii to character
+		dict(List,Key,value)  =====>  convert list to dictionary
+------------------------------------------------------------------------------------------------------------------------------------
+try Parsing:	isNumber(value)	return true if value is number
+ 	 	isText(value)  =====>  return true if value is text
+		isObject(value)  =====>  return true if value is object
+		isDate(value)  =====>  return true if value is date
+		isTime(value)  =====>  return true if value is time
+		isNull(value)  =====>  return true if value is null
+		isEquel(value1,value2)  =====>  return true if value1 = value2
+		isMatch(text,regex expression)   =====>  return true if text respect regex expression
+------------------------------------------------------------------------------------------------------------------------------------
+operation of list:	add(list,object)  =====>  add object to list 
+		ins(list,object,index)  =====>  insert object in list
+		update(list,object) =====> update object from list
+		delete(list,object)  =====>  delete object from list
+		sort(list,name of column)  =====>  return list sorted ascending 
+		rev(list)  =====>  return list reverse 
+		get(list,index)  =====>  return object  
+		find(list,name of column,value)  =====>  return index or list of index 
+		size(list)  =====>  return size of list  
+	 	clean(list)  =====>  Delete all element of list
+------------------------------------------------------------------------------------------------------------------------------------
+operation of math:	calc.sqrt(number)  =====>  calculer square root 
+		calc.fabs(number)  =====>  calculer absolute value
+		calc.pow(number,power)  =====>  calculer power  
+		calc.fact(number)  =====>  calculer factorial 
+		calc.log(number)  =====>  calculer logarithm
+		calc.exp(number)  =====>  calculer exponential
+		calc.sin(number)  =====>  calculer sinus 
+		calc.cos(number)  =====>  calculer cosine
+		calc.tan(number)  =====>  calculer tangent
+		calc.asin(number)  =====>  calculer arcsinus 
+		calc.acos(number)  =====>  calculer arccosine
+		calc.atan(number)  =====>  calculer arctangent
+		calc.rand(val init,val fin) / calc,rand()  =====>  return random number 
+------------------------------------------------------------------------------------------------------------------------------------
+date and time:	date(format : ""YYYY/MM/DD"")  =====>  return date now
+		time(format : ""h:m:s:ms"")  =====>  return time now
+		addDays(date,value)  =====>  add days to date
+		diffDays(date1,date2)  =====>  get diff between tow date
+		month(date)  =====>  get month of date
+		day(date)  =====>  get day of date
+		year(date)  =====>  get year of date
+		hour(time)  =====>  get hour of time
+		min(time)	  =====>  get minut of time
+		sec(time)  =====>  get second of time
+------------------------------------------------------------------------------------------------------------------------------------
+operation of string:	lower(text)  =====>  text to lowercase
+		upper(text)  =====>  text to oppercase
+		div(text,character or text )  =====>  spliting text 
+		len(text)  =====>  length of text 
+		contain(text,text cherch)  =====>  return index of first caracter 
+		containAll(text,array text value)  =====>  return list of index of first caracters
+		between(mytext,text1,text2)  =====>  return the portion of a string between two values
+		replace(text,value1,value2)  =====>  replaces a given string within the string
+		replaceAll(mytext,array1 text value,array2 text value)  =====>  replaces a given array or value in the string sequentially using an array
+		cut(text,index1,length)  =====>  return the portion of string specified by the start and length parameters
+		count(text,value)  =====>  return number of times the text is present
+------------------------------------------------------------------------------------------------------------------------------------
+operation of file: 	read(path)  =====>  return a file content with format text
+		write(path,text)  =====>  write text in file
+		copy(path1,path2,true/false) =====> copy file to directory
+		del(path) ====> delete file 
+		fileName(path) =====> return a name of file
+		ext(path) =====> return a extension of file
+		sizeOf(path)  =====> return a size of file
+------------------------------------------------------------------------------------------------------------------------------------
+other function :	typeOf(var)  =====> return a type of variable
+
+		system(cmd) =====> apply a command of your system
+
+		test('statement') ====> return true if your statement is correct
+
+		
+		 
