@@ -8,7 +8,7 @@ converting:	number(value)  =====>  convert value to number
 		txt(Path)  =====>  convert file to txt
 		ascii(char)  =====>  convert char to ascii
 		char(number)  =====>  convert ascii to character
-		dict(List,Key,value)  =====>  convert list to dictionary
+		dict(List)  =====>  convert list to dictionary
 ------------------------------------------------------------------------------------------------------------------------------------
 try Parsing:	isNumber(value)	return true if value is number
  	 	isText(value)  =====>  return true if value is text
