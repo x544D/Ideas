@@ -5,6 +5,7 @@
 		
 ------------------------------------------------------------------------------------------------------------------------------------
     // Coverting Funcs
+		# this require : load @base -OR- from @base load @convert
 
         	$tonumber(value)  =====>  convert value to number
 		$totext(value)  =====>  convert value to text(string)
@@ -16,6 +17,7 @@
 		$todict(List)  =====>  convert list to dictionary
 ------------------------------------------------------------------------------------------------------------------------------------
     // Type Checking Funcs
+		# No loading required :D
 
         	$isNumber(value)	return true if value is number
  	 	$isText(value)  =====>  return true if value is text
@@ -26,7 +28,8 @@
 		$isMatch(text,regex expression)   =====>  return true if text respect regex expression
 ------------------------------------------------------------------------------------------------------------------------------------
     // List basic Functions
-
+		# this does not require anything :D
+	
         	$add(list,object)  =====>  add object to list 
 		$insert(list,object,index)  =====>  insert object in list
 		$update(list,object) =====> update object from list
@@ -39,6 +42,7 @@
 	 	$clear(list)  =====>  Delete all element of list
 ------------------------------------------------------------------------------------------------------------------------------------
     // Math Functs  
+		# this require : load @math
 
         	$sqrt(number)  =====>  calculer square root 
 		$fabs(number)  =====>  calculer absolute value
@@ -55,6 +59,7 @@
 		$rand(val init,val fin) / calc,rand()  =====>  return random number 
 ------------------------------------------------------------------------------------------------------------------------------------
     // date and time funcs
+		# this require : load @base -OR- from @base load @datetime
 
         	$date(format : ""YYYY/MM/DD"")  =====>  return date now
 		$time(format : ""h:m:s:ms"")  =====>  return time now
@@ -68,6 +73,7 @@
 		$seconds(time)  =====>  get second of time
 ------------------------------------------------------------------------------------------------------------------------------------
     // Strings Functions
+		# this does not require anything :D
 
         	$lower(text)  =====>  text to lowercase
 		$upper(text)  =====>  text to oppercase
@@ -84,6 +90,7 @@ To merge   <-|           one prototype : $replace()
 		$count(text,value)  =====>  return number of times the text is present
 ------------------------------------------------------------------------------------------------------------------------------------
     // Files Functions
+		# this require : load @base -or- from @base load @io
 
         $f_read(path)  =====>  return a file content with format text
 		$f_write(path,text)  =====>  write text in file
@@ -98,6 +105,7 @@ To merge   <-|           one prototype : $replace()
         $f_loop_lines(line){ ... }  ==> line takes each line .
 ------------------------------------------------------------------------------------------------------------------------------------
     // Global Use funcs
+		# this does not require anything :D
 
         $typeOf(var)  =====> return a type of variable
         $nameOf(var)  =====> return name of variable // this is sooo usefull !! :D
