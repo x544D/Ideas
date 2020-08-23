@@ -1,4 +1,9 @@
 
+# @static since All the Planet's Methods are static
+# in a None-static Planet , You can define that a method is static by simply decorating it with @static on top of it .
+# We Might update this after to a locked Planet to do some jobs and inherit from it
+
+@static
 planet web {
 
 
