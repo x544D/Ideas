@@ -98,6 +98,7 @@ To merge   <-|           one prototype : $replace()
         $f_move(filePath , toPath)  ===> move to another path .
 		$f_delete(path) ====> delete file 
 		$f_name(path) =====> return a name of file
+		$f_directory(path) =====> return directory of file
 		$f_extension(path) =====> return a extension of file
 		$f_size(path)  =====> return file's bytes number
         $f_append(path , "")
