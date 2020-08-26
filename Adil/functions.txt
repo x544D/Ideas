@@ -7,7 +7,7 @@
     // Coverting Funcs
 		# this require : load @base -OR- from @base load @convert
 
-        	$tonumber(value)  =====>  convert value to number
+        	$tonumber(value , convert_to)  =====>  convert value to number , convert_to can be : 'float' , 'int' , 'long'
 		$totext(value)  =====>  convert value to text(string)
 		$tojson(Array/List)  =====>  convert list to json
 		$toxml(Array/List)  =====>  convert list to xml
