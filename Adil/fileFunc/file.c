@@ -45,6 +45,8 @@ char * get_py_eq(char *  fname)
     else if(!strcmp(fname,".replace")) return __replace;
     else if(!strcmp(fname,".count")) return __count;
 
+    else if(!strcmp(fname,"system")) return _system;
+    
     else return NULL;
 }
 
