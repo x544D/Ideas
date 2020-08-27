@@ -3,15 +3,48 @@
 # in a None-static Planet , You can define that a method is static by simply decorating it with @static on top of it .
 # We Might update this after to a locked Planet to do some jobs and inherit from it
 
+load @io
+using @io
+
 @static
 planet web {
 
+directory = "./" 
 
-#function for create and full  file .html
+#Main_function_for_create_and_full_file_with_format_(.html)
 
-$alspage(path,code){
+$alspage(filepath,code){
+	directory=$f_directory(filepath)
+    $f_write(filepath,code)
+}
 
-    $f_write(path,code)
+$addstyle(query,csscodes){
+	style = "\n"
+	style = style + query + " {\n"  # .className {
+	style = style + csscodes 		# color : red ; 
+	style = style + "\n }" 			# }
+    $f_append(directory+"styleAls.css",style)
+}
+
+$addscript(jscodes){
+	script = "\n"
+	script = script + jscodes  	# alert('hello world !'); 
+    $f_append(directory+"/scriptAls.js",script)
+}
+
+$addevent(query,eventname,jscodes){
+	script = "\n" 
+	script = script + "$('" + query + "')."+eventname+"(function(){\n"  	#  $('body').load ( function(){
+	script = script + jscodes  											# alert('hello world !'); 
+	script = script + "\n });" 											# }
+    $f_append(directory+"scriptAls.js",script)
+}
+
+$texthtml(codehtml){
+	text = codehtml.replace(" ","&nbsp;")
+	text = text.replace("<","&lt;")
+	text = text.replace(">","&rt;")
+	ret text
 }
 
 $open(tagname){
@@ -34,7 +67,13 @@ $html(code){
 $head(text_title,text_html,text_style,text_script){
     start=$open("head")+">"
     end=$close("head")
-    text=text_title+"\n"+text_html+"\n"+text_style+"\n"+text_script
+	tools = "\n<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css' >"
+	tools = tools +"<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>"
+	tools = tools +"\n<script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script>" 
+	tools = tools +"\n<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>"
+	tools = tools +"\n<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>"
+	tools = tools +"\n<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>"
+    text=text_title+tools+"\n"+text_html+"\n"+text_style+"\n"+text_script
     result = start+"\n"+text+"\n"+end 
     ret result
 }
