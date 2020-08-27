@@ -39,3 +39,5 @@
 #define __len  "__len__"
 #define __replace  "replace"
 #define __count  "count"
+// Global Use funcs
+#define _system  "os.system"
