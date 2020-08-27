@@ -1,0 +1,43 @@
+
+ // Coverting Funcs
+#define _tonumber  "int"
+#define _totext  "str"
+#define _tojson  "json.dumps"
+#define _toxml  "dicttoxml.dicttoxml"
+#define _toascii  "ord"
+#define _todict  "dict"
+// Type Checking Funcs
+#define _isnumber  "isnumeric"
+#define _isalpha  "isalpha"
+#define _isequal  "assert:equality"
+#define _ismatch  "re.match"
+// List basic Functions
+#define __add  "append"
+#define __insert  "insert"
+#define __remove  "remove"
+#define __reverse  "reverse"
+#define __size  "__len__"
+#define __clear  "clear"
+// Math Functs 
+#define _sqrt  "math.sqrt"
+#define _fabs  "math.fabs" 
+#define _pow  "pow"
+#define _fact  "math.factorial" 
+#define _log  "math.log"
+#define _exp  "math.exp" 
+#define _sin  "math.sin"
+#define _cos  "math.cos" 
+#define _tan  "math.tan"
+#define _asin  "math.asin" 
+#define _acos  "math.acos"
+#define _atan  "math.atan"
+#define _rand  "random.randrange"
+// Strings Functions
+#define __lower  "lower"
+#define __upper  "upper"
+#define __split  "split"
+#define __len  "__len__"
+#define __replace  "replace"
+#define __count  "count"
+// Global Use funcs
+#define _system  "os.system"
